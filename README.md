@@ -5,7 +5,7 @@ Look at the current btc price with this simple telegram bot
 Available exchangers:
 * [Coinmarketcap](https://coinmarketcap.com)
 * [Coinbase](https://www.coinbase.com)
-* [Bitcoinaverage](https://bitcoinaverage.com)
+* [Bitcoinaverage](https://bitcoinaverage.com)
 * [Kraken](https://www.kraken.com)
 
 Available currencies:
