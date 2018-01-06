@@ -48,6 +48,9 @@ Start the bot
 node index.js
 ```
 
+## Example
+
+You can find a running version of this bot at this [link](https://t.me/BtcConverterBot)
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
