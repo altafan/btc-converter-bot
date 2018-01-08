@@ -8,6 +8,12 @@ let callbackType,
     currency = 'eur',
     exchange = 'coinmarketcap'
 
+bot.onText(/\/start|help/, message => {
+  bot.sendMessage(message.chat.id, `
+    /help - Get the list of all commands\n/btc - Get the current btc price\n/currency - Select the currency in which btc are converted\n/exchanger - Select the exchanger from the list\n/which_exchanger - View the current exchanger
+  `)
+})
+
 bot.onText(/\/which_exchanger/, message => {
   bot.sendMessage(message.chat.id, exchange)
 })
